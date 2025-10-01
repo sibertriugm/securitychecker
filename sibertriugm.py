@@ -9,8 +9,8 @@ import joblib
 
 # ==== CONFIG ====
 MOBSF_URL = "https://mobsf.my.id/"
-MOBSF_API_KEY = "32a80594bfcab9678c087be240c5d103d5a0bfb81ee60e6e886b81a090119a3b"
-VT_API_KEY   = "9d5dc6f6929b301f6ce5bdccf52447f7b848eedc9ed1bd653ae319465d2180ff" #sudah
+MOBSF_API_KEY = "e0c786539bd6c697905b5eb11d31dfbf4d5f873913d69dc078f49458d209835a" #done
+VT_API_KEY   = "9d5dc6f6929b301f6ce5bdccf52447f7b848eedc9ed1bd653ae319465d2180ff" #done
 
 MOBSF_HEADERS = {"Authorization": MOBSF_API_KEY}
 DATASET_PATH  = "data.csv"
@@ -158,6 +158,7 @@ if uploaded_files:
                 st.error(f"VirusTotal Error: {e}")
 
             st.markdown("---")
+
 
 
 
