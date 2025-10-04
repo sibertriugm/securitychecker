@@ -9,7 +9,7 @@ import joblib
 
 # ==== CONFIG ====
 MOBSF_URL = "https://sibertriugm.my.id/"
-MOBSF_API_KEY = "e0c786539bd6c697905b5eb11d31dfbf4d5f873913d69dc078f49458d209835a" #done
+MOBSF_API_KEY = "d37f9dca218866f1909f82a5ee4ff49c749db1b176d3650ea67236fc571a9b27" #done
 VT_API_KEY   = "9d5dc6f6929b301f6ce5bdccf52447f7b848eedc9ed1bd653ae319465d2180ff" #done
 
 MOBSF_HEADERS = {"Authorization": MOBSF_API_KEY}
@@ -158,6 +158,7 @@ if uploaded_files:
                 st.error(f"VirusTotal Error: {e}")
 
             st.markdown("---")
+
 
 
 
